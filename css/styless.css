@@ -442,13 +442,13 @@ body {
 }
 .button-style1 {
 	position:absolute;
-	left:25%;
-	animation:btn1 15s;
+	left:35%;
+	animation:btn1 10s;
 }
 .button-style2 {
 	position:absolute;
-	right:25.5%;
-	animation:btn2 15s;
+	right:35.5%;
+	animation:btn2 10s;
 }
 @keyframes btn1 {
 	0% {
@@ -461,7 +461,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:25.5%;
+		left:35.5%;
 	}
 }
 @-webkit-keyframes btn1 {
@@ -475,7 +475,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		left:25.5%;
+		left:35.5%;
 	}
 }
 @keyframes btn2 {
@@ -489,7 +489,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		right:25.5%;
+		right:35.5%;
 	}
 }
 @-webkit-keyframes btn2 {
@@ -503,7 +503,7 @@ body {
 	}
 	100% {
 		opacity:1;
-		right:25.5%;
+		right:35.5%;
 	}
 }
 .lk1,.lk2 {
