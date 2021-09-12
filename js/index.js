@@ -12,7 +12,7 @@
 
 */
 
-// '#countdown 3|hi|祝你|生日快乐|happy birthday||'
+// '#countdown 3|hi|祝你|生日|快樂|happy birthday||'
 var S = {
   init: function () {
     var action = window.location.href,
@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('hi何玟嫺|祝你|生日快乐|happy birthday|#rectangle|#countdown 3||');
+      S.UI.simulate('hi|玟嫺|祝你|生日|快樂|happy birthday|#rectangle|#countdown 3||');
     }
 
     S.Drawing.loop(function () {
