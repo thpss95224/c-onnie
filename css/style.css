@@ -582,7 +582,7 @@
 	animation:ly-stxt10_move 20s;
 	animation-delay:3s;
 	-webkit-animation:ly-stxt10_move 20s;
-	-webkit-animation-delay:3s;
+	-webkit-animation-delay:4s;
 }
 @keyframes ly-stxt10_move{
 	0% {opacity:0;margin-top:-71px;}
@@ -1903,7 +1903,7 @@
 .ly-txt84 {
 	text-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 15px;
+	font-size: 13.5px;
 	font-color: #000;
 	position: absolute;
 	margin-left:30px;
@@ -1918,7 +1918,7 @@
 
 .active .ly-txt84 {
 	height:500px;
-	transition-delay: 6.5s;
+	transition-delay: 2.5s;
 }
 .ly-txt90 {
 	font-family: Microsoft YaHei;
